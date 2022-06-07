@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'PT Sans', sans-serif;
+}
+
+html{
+    min-height: 100%;
+}
+
+*, button, input{
+    border:0;
+    background: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+@media (min-width:700px){
+    :root{
+        font-size: 62.5%;
+    }
+
+}

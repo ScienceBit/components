@@ -1,0 +1,10 @@
+.nav{
+    background-color: LightGray;
+}
+
+@media screen and (min-width: 960px)  {
+  #navbarScroll{
+    font-family: 'Roboto', -apple-system, system-ui, sans-serif;
+    margin-left: 650px;
+}  
+}
