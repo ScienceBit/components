@@ -1,44 +1,35 @@
-import { useState } from "react";
-import { IconBase } from "react-icons";
-import { Link } from "react-router-dom";
-import { NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import React, { useState } from 'react';
+import MenuItems  from './menuItems';
 import './styles.css';
-
+import { Link } from 'react-router-dom';
 
 function Dropdown() {
-    const [click, setClick] = useState(true);
-    const [dropdown, setDropdown] = useState(false);
+  const [click, setClick] = useState(false);
 
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click);
 
-    return (
-        <NavDropdown
-            title="Services"
-            className='nav-links'
-        >
-            <NavDropdown.Item href="#action3"
-                onClick={closeMobileMenu} 
-                className='actions'
-                >Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action4"
-                onClick={closeMobileMenu}
-                className='actions'
-                >
-                Another 2
-            </NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item 
-            href="#action5"
-            onClick={closeMobileMenu} 
-            className='actions'
-
-            >
-                Action 3
-            </NavDropdown.Item>
-        </NavDropdown>
-
-    )
+  return (
+    <>
+      <ul
+        onClick={handleClick}
+        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+      >
+        {MenuItems.map((item, index) => {
+          return (
+            <li key={index}>
+              <Link
+                className={item.cName}
+                to={item.path}
+                onClick={() => setClick(false)}
+              >
+                {item.title}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </>
+  );
 }
 
 export default Dropdown;

@@ -1,17 +1,13 @@
-import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import React from 'react';
 import './styles.css';
-import Rota from "../../routes";
+import { Link } from 'react-router-dom';
 
 function Button() {
-    return (
-      <NavLink to='/'>
-        <button className="btnContainer"> Sig UP</button>
-
-      </NavLink>
-
-    );
-
+  return (
+    <Link to='sign-up'>
+      <button className='btn'>Sign Up</button>
+    </Link>
+  );
 }
 
 export default Button;

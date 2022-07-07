@@ -4,7 +4,6 @@ import Rota from './routes';
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
-import NavBarUm from './components/navBarUm';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 import NavBarTres from './components/navBarTres';
 import NavBarQuatro from './components/navBarQuatro';
@@ -21,13 +20,16 @@ import NavBarQuinze from './components/navBarQuinze';
 import NavBarDezesseis from './components/navBarDezesseis';
 import NavBarDezessete from './components/navBarDezessete';
 import NavBarDezoito from './components/navBarDezoito';
+import NavBarDezenove from './components/navBarDezenove';
+import NavBarVinte from './components/navBarVinte';
+import NavBarVinteUm from './components/navBarVinteUm';
 
 
 
 function App() {
   return (
   <Router>
-    <NavBarDezoito/>
+    <NavBarDezessete/>
   </Router>
   );
 }
