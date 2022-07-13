@@ -1,0 +1,218 @@
+.card-body fieldset .password a {
+    margin-left: 25px;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+fieldset {
+    background-color: #2169d64e;
+    width: 390px;
+    height: 350px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.log {
+    align-items: center;
+    justify-content: center;
+}
+
+.container .fa-code {
+    align-items: center;
+    justify-content: center;
+    color: rgb(248, 244, 13);
+    padding: 5%;
+    margin-left: 45%;
+}
+
+.log h1 {
+    color: #ffff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.card-body fieldset .form {
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-group label {
+    padding: 20px;
+    color: #ffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-group input {
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 15px;
+    width: 350px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.card-body .btn-primary {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 67%;
+    margin-top: -25px;
+}
+
+
+.card-body .btn-danger {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 350px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.logT h1 {
+    color: #ffff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+}
+
+.btn-primaryT {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 350px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+
+
+@media (min-width:350px){
+    .container .card-body fieldset{
+     width: 32px;
+}
+    
+}
+
+@media (min-width:500px) {
+    fieldset {
+        width: 450px;
+    }
+
+    .form-group input {
+        width: 400px;
+
+    }
+
+
+    .card-body .btn-primary {
+
+        margin-left: 70%;
+    }
+
+
+    .card-body .btn-danger {
+        width: 400px;
+    }
+
+
+}
+
+@media (min-width:650px) {
+    fieldset {
+        width: 450px;
+    }
+
+    .form-group input {
+        width: 400px;
+
+    }
+
+
+    .card-body .btn-primary {
+
+        margin-left: 70%;
+    }
+
+
+    .card-body .btn-danger {
+        width: 400px;
+    }
+
+
+}
+
+
+
+@media (min-width:660px) {
+    .card-body {
+        align-items: center;
+        margin-left: 15%;
+    }
+
+}
+
+
+@media (min-width:820px) {
+    .container .card-body fieldset{
+       width: 500px;
+       align-items: center;
+       justify-content: center;
+    }
+    .card-body {
+        align-items: center;
+        margin-left: 15%;
+        width: 200px;
+    }
+
+    #cardyb{
+        width: 100px;
+    }
+
+    .card-body .btn-primaryT {
+        width: 400px;
+    }
+
+    .f2{
+        margin-left: 300%;
+        margin-top: -395px;
+    }
+}
