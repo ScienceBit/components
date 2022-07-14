@@ -8,7 +8,7 @@ import {NavDropdown} from 'react-bootstrap';
 import Dropdown from "../Dropdown";
 
 
-function NavBarDezessete() {
+function NavBarQuatorze() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -97,4 +97,4 @@ function NavBarDezessete() {
 }
 
 
-export default NavBarDezessete;
+export default NavBarQuatorze;

@@ -7,7 +7,7 @@ import Button from "../Button";
 import {NavDropdown} from 'react-bootstrap';
 
 
-function NavBarOnze() {
+function NavBarDez() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -84,4 +84,4 @@ function NavBarOnze() {
 }
 
 
-export default NavBarOnze;
+export default NavBarDez;

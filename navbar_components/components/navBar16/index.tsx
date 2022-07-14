@@ -48,14 +48,7 @@ function NavBarDezenove() {
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link
-              to='/services'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Services <i className='fas fa-caret-down' />
-            </Link>
-            {dropdown && <Dropdown />}
+            <Dropdown/>
           </li>
           <li className='nav-item'>
             <Link
